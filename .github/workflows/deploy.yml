@@ -1,0 +1,33 @@
+name: Deploy Quarto Website
+
+on:
+  push:
+    branches: [main]  # Trigger this workflow when pushing to main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✅ Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 📦 Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: 🐍 Set up Python (for .ipynb files)
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 🔧 Install Jupyter (only needed if using notebooks)
+        run: pip install jupyter
+
+      - name: 🛠 Render Quarto Site
+        run: quarto render
+
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
