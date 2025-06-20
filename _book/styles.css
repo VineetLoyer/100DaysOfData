@@ -6,8 +6,8 @@ body, html {
   font-weight: 400;
   line-height: 1.65;
   letter-spacing: 0.01em;
-  /* color: var(--body-color);
-  background-color: var(--body-bg); */
+  color: var(--body-color);
+  background-color: var(--body-bg);
 }
 
 h1, h2, h3, h4 {
@@ -16,15 +16,15 @@ h1, h2, h3, h4 {
   color: var(--heading-color);
 }
 /* Reduce content width */
-/* main.content {
+main.content {
   max-width: 760px;
   margin: auto;
   padding: 2rem;
-} */
+}
 
 /* Clean links */
 a {
-  /* color: #2c2c2c; */
+  color: #2c2c2c;
   text-decoration: underline dotted;
 }
 a:hover {

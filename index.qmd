@@ -1,7 +1,5 @@
----
-title: "100DaysOfData"
----
+# 🔥 Daily Progress
 
-This is a Quarto website.
+## Day 1
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+- [Bias vs Variance](posts/day01/topic1.ipynb)

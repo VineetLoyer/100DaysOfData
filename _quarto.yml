@@ -8,13 +8,22 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/VineetLoyer/100DaysOfData
+        aria-label: Github
+      - icon: linkedin
+        href: https://www.linkedin.com/in/vineet-loyer/
+        aria-label: LinkedIn
+  
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: cosmo
+      dark: darkly
     css: styles.css
+    toggle-theme: true
     toc: true
 
 

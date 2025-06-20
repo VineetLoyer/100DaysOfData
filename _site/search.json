@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "posts/day01/topic1.html",
+    "href": "posts/day01/topic1.html",
     "title": "100DaysOfData",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Sample Notebook for testing purpose"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🔥 Daily Progress",
+    "section": "",
+    "text": "Bias vs Variance"
+  },
+  {
+    "objectID": "index.html#day-1",
+    "href": "index.html#day-1",
+    "title": "🔥 Daily Progress",
+    "section": "",
+    "text": "Bias vs Variance"
   }
 ]

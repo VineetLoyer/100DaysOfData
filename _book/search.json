@@ -1,0 +1,35 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "100DaysOfData",
+    "section": "",
+    "text": "1 🔥 Daily Progress",
+    "crumbs": [
+      "Home",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>100DaysOfData</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#day-1",
+    "href": "index.html#day-1",
+    "title": "100DaysOfData",
+    "section": "1.1 Day 1",
+    "text": "1.1 Day 1\n\nBias vs Variance",
+    "crumbs": [
+      "Home",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>100DaysOfData</span>"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "2  About",
+    "section": "",
+    "text": "About this site",
+    "crumbs": [
+      "Home",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>About</span>"
+    ]
+  }
+]
