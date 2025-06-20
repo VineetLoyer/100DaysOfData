@@ -1,5 +1,5 @@
 tools:
-  git: "C:/Program Files/Git/bin/git.exe"
+  git: "git"
 
 project:
   type: website
