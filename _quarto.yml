@@ -1,6 +1,6 @@
 tools:
-  git: "C:/Program Files/Git/cmd/git.exe"
-  
+  git: "C:/Program Files/Git/bin/git.exe"
+
 project:
   type: website
   output-dir: _site
