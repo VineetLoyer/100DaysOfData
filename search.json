@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "posts/day01/topic1.html",
+    "href": "posts/day01/topic1.html",
+    "title": "100DaysOfData",
+    "section": "",
+    "text": "Sample Notebook for testing purpose"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🔥 Daily Progress",
+    "section": "",
+    "text": "Bias vs Variance"
+  },
+  {
+    "objectID": "index.html#day-1",
+    "href": "index.html#day-1",
+    "title": "🔥 Daily Progress",
+    "section": "",
+    "text": "Bias vs Variance"
+  }
+]
